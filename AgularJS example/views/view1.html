@@ -1,0 +1,27 @@
+<div class="bigdiv" ng-controller="MyController">
+    <div class="div1">
+        <h1>Hey everyone,</h1>
+        <h2>this is the first View1</h2>
+        <h3>we still going!!!</h3>
+    </div>
+        <div>
+         
+        <ul>_______________________________________________________________________</ul>
+        <div class="div1">
+            <h2>Event: {{eventData.event }}</h2>
+            <ul></ul>
+            <h2>Date: {{eventData.date | date:'medium' }}</h2>
+            <ul></ul>
+            <h2>Location: {{eventData.location.city }}, {{ eventData.location.state }}</h2>
+            <ul></ul>
+            <h2>Guests:</h2>
+            <ul>
+                <h3 ng-repeat="guest in eventData.guests">{{ guest.name }}, {{ guest.age }}</h3>
+            </ul>
+            <button class="black-button" ng-click="checkTime()">Check</button>
+
+        </div>
+        <ul>_______________________________________________________________________</ul>
+    </div>
+
+</div>

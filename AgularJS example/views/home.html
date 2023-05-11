@@ -1,0 +1,36 @@
+<div class="bigdiv" ng-controller="MyController">
+    <div class="div1">
+        <h1>Hey everyone,</h1>
+        <h2>this is me learning AngularJS.</h2>
+        <h3>Let's go!!!</h3>
+    </div>
+
+    <div>
+        <ul>_______________________________________________________________________</ul>
+        <div class="div1">
+            <h2>Do as it says:</h2>
+            <ul></ul>
+            <button class="black-button" ng-click="showPopup()">Click Here !!!</button>
+            <button class="black-button" ng-click="showAlert('This is another way of showing a pop message')">Or Click
+                Here
+                !!!</button>
+        </div>
+
+        <div>
+            <ul>_______________________________________________________________________</ul>
+
+            <div class="div1">
+                <h2>When were you born?</h2>
+                <ul></ul>
+                <input class="date-picker" type="date" ng-model="selectedDate">
+                <ul></ul>
+                <h2>You picked: {{selectedDate | date: 'longDate'}}</h2>
+            </div>
+            <ul>_______________________________________________________________________</ul>
+            <div class="div1">
+                <h2>This is the date I was born:</h2>
+                <ul></ul>
+                <h3>{{newDate | date:'longDate'}}</h3>
+            </div>
+        </div>
+    </div>

@@ -1,0 +1,68 @@
+body {
+  font-family: Helvetica;
+  margin: 0;
+  background-image: url(https://images.huffingtonpost.com/2015-11-15-1447626033-3641464-SmileHand-thumb.jpg);
+  background-repeat: no-repeat;
+  background-size:cover;
+}
+ul{
+  color: rgba(255, 208, 0, 0.40);
+}
+div {
+  padding-left: 5%;
+  padding-right: 5%;
+  padding-top: 2.5%;
+}
+
+.date-picker{
+  background-color: rgba(0, 0, 0, 0.326);
+  color: white;
+  width: fit-content;
+  border: none;
+  padding: 10px;
+}
+
+.div1 {
+  padding: 20px;
+}
+
+.header {
+  width: 100%;
+  margin: 0;
+  background-image: linear-gradient(to bottom,rgb(255, 208, 0),rgba(255, 208, 0, 0.85),rgba(255, 208, 0, 0.75),rgba(255, 208, 0, 0.65),rgba(255, 208, 0, 0.5) ,rgba(255, 208, 0, 0.35),rgb(255, 208, 0,0.25),rgba(255, 208, 0, 0.15),rgba(255, 208, 0, 0.10),rgba(255, 208, 0, 0.05),rgba(255, 208, 0, 0.035),rgba(255, 208, 0, 0.015),rgba(255, 208, 0, 0.005));
+  padding: 20px;
+  display: flex;
+
+}
+
+.header-button {
+  background-color: none;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  border-radius: 5px;
+  text-decoration: double;
+
+}
+
+.black-button {
+  background-color: black;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  border-radius: 5px;
+
+}
+
+.bigdiv {
+  padding: 5px;
+}
+
+h1,
+h2,
+h3 {
+  margin: 0;
+  color: white;
+}
